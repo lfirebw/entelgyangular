@@ -1,0 +1,17 @@
+/* CARD STYLE */
+.card {
+    background-color: #fff; border: 1px solid #e3e3e3;
+    border-radius: 8px; box-shadow: 0 8px 15px rgb(125 147 178 / 25%);
+    transition: all .3s;
+    padding:15px;
+}
+.card.country{
+    max-width: 250px; cursor: pointer; margin:0 auto; height: 200px;
+}
+.country-name{
+    color:#5c6ac4; transition: color ease .5s;
+}
+.card.country:hover .country-name{
+    color:#77afeb;
+}
+.card.country .image { height: 170px; }

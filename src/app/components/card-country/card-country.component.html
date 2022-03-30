@@ -1,0 +1,8 @@
+<div class="item">
+    <div class="card country" *ngIf="country != {}">
+        <div class="image">
+            <img class="img-fluid" src="{{getSrcFlag()}}" srcset="{{getSrcSet()}}">
+            <h1 class="txt-center country-name">{{country.name.common}}</h1>
+        </div>
+    </div>
+</div>

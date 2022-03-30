@@ -1,0 +1,7 @@
+/*FOOTER STYLE*/
+footer { background-color: #e3e3e3; }
+.footer-bottom { height:30px; width: 100%; background-color: #fff;}
+.footer-bottom p { padding: 5px 0; }
+.navmenu{ list-style: none; }
+.navmenu li{ margin-bottom: 1em; }
+.navmenu li a { text-decoration: none; color:#5c6ac4; }
